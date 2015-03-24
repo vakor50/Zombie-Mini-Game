@@ -1,18 +1,27 @@
-//
-//  main.cpp
-//  32 Project 1
-//
-//  Created by Nitish Thakor on 1/8/14.
-//  Copyright (c) 2014 Vir Thakor. All rights reserved.
-//
+
+// zombies.cpp
 
 #include <iostream>
+#include <string>
+#include <algorithm>
+#include <cstdlib>
+#include <cctype>
+#include <cassert>
+#include <cstdlib>
+#include <ctime>
+#include "Game.h"
+using namespace std;
 
-int main(int argc, const char * argv[])
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    // Initialize the random number generator
+    srand(static_cast<unsigned int>(time(0)));
+    
+    // Create a gamed
+    // Use this instead to create a mini-game:   Game g(3, 5, 2);
+    // (x, y, z): x = x-axis size, y = y-axis size, z = number of zombies
+    Game g(10, 10, 10);
+    
+    // Play the game
+    g.play();
 }
-

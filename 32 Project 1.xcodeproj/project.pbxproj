@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		6B0AC9D5187DE57100159F01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9D4187DE57100159F01 /* main.cpp */; };
 		6B0AC9D7187DE57200159F01 /* _2_Project_1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B0AC9D6187DE57100159F01 /* _2_Project_1.1 */; };
+		6B0AC9E0187DE7D300159F01 /* Zombie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9DF187DE7D300159F01 /* Zombie.cpp */; };
+		6B0AC9E3187DE7E700159F01 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9E2187DE7E700159F01 /* Player.cpp */; };
+		6B0AC9E9187DE86B00159F01 /* Arena.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9E8187DE86B00159F01 /* Arena.cpp */; };
+		6B0AC9EC187DE88300159F01 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9EB187DE88300159F01 /* Game.cpp */; };
+		6B0AC9F5187DE95B00159F01 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B0AC9F3187DE95B00159F01 /* utilities.cpp */; };
+		6B3A90D61884E73100BDF5E7 /* History.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B3A90D51884E73100BDF5E7 /* History.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +34,18 @@
 		6B0AC9D1187DE57100159F01 /* 32 Project 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "32 Project 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B0AC9D4187DE57100159F01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6B0AC9D6187DE57100159F01 /* _2_Project_1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _2_Project_1.1; sourceTree = "<group>"; };
+		6B0AC9DD187DE72100159F01 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		6B0AC9DE187DE7CA00159F01 /* Zombie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
+		6B0AC9DF187DE7D300159F01 /* Zombie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zombie.cpp; sourceTree = "<group>"; };
+		6B0AC9E1187DE7E100159F01 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6B0AC9E2187DE7E700159F01 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		6B0AC9E4187DE7F200159F01 /* History.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		6B0AC9E7187DE86600159F01 /* Arena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arena.h; sourceTree = "<group>"; };
+		6B0AC9E8187DE86B00159F01 /* Arena.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arena.cpp; sourceTree = "<group>"; };
+		6B0AC9EA187DE87B00159F01 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6B0AC9EB187DE88300159F01 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		6B0AC9F3187DE95B00159F01 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utilities.cpp; sourceTree = "<group>"; };
+		6B3A90D51884E73100BDF5E7 /* History.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = History.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +79,19 @@
 			isa = PBXGroup;
 			children = (
 				6B0AC9D4187DE57100159F01 /* main.cpp */,
+				6B0AC9DE187DE7CA00159F01 /* Zombie.h */,
+				6B0AC9DF187DE7D300159F01 /* Zombie.cpp */,
+				6B0AC9E1187DE7E100159F01 /* Player.h */,
+				6B0AC9E2187DE7E700159F01 /* Player.cpp */,
+				6B0AC9E4187DE7F200159F01 /* History.h */,
+				6B3A90D51884E73100BDF5E7 /* History.cpp */,
+				6B0AC9E7187DE86600159F01 /* Arena.h */,
+				6B0AC9E8187DE86B00159F01 /* Arena.cpp */,
+				6B0AC9EA187DE87B00159F01 /* Game.h */,
+				6B0AC9EB187DE88300159F01 /* Game.cpp */,
+				6B0AC9DD187DE72100159F01 /* globals.h */,
 				6B0AC9D6187DE57100159F01 /* _2_Project_1.1 */,
+				6B0AC9F3187DE95B00159F01 /* utilities.cpp */,
 			);
 			path = "32 Project 1";
 			sourceTree = "<group>";
@@ -118,6 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B0AC9D5187DE57100159F01 /* main.cpp in Sources */,
+				6B0AC9E0187DE7D300159F01 /* Zombie.cpp in Sources */,
+				6B0AC9E3187DE7E700159F01 /* Player.cpp in Sources */,
+				6B0AC9E9187DE86B00159F01 /* Arena.cpp in Sources */,
+				6B0AC9EC187DE88300159F01 /* Game.cpp in Sources */,
+				6B0AC9F5187DE95B00159F01 /* utilities.cpp in Sources */,
+				6B3A90D61884E73100BDF5E7 /* History.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +252,7 @@
 				6B0AC9DC187DE57200159F01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
